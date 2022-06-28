@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace calc
 {
-    public class Addition : ITwoCalculator
+    class Degree : ITwoCalculator
     {
         public double Calculate(double a, double b)
         {
-            return a + b;
+            return Math.Pow(a, b);
         }
     }
 }

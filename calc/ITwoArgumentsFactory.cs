@@ -14,19 +14,19 @@ namespace calc
         {
             switch (calculatorName)
             {
-                case "Сложение":
+                case "+":
                     Addition addition = new Addition();
                     return addition.Calculate(firstNum, secondNum);
 
-                case "Вычитание":
+                case "-":
                     Subtraction subtraction = new Subtraction();
                     return subtraction.Calculate(firstNum, secondNum);
 
-                case "Умножение":
+                case "*":
                     Multiplication multiplication = new Multiplication();
                     return multiplication.Calculate(firstNum, secondNum);
 
-                case "Деление":
+                case "/":
                     Division division = new Division();
                     return division.Calculate(firstNum, secondNum);
 

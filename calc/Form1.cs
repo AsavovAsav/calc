@@ -16,7 +16,7 @@ namespace calc
     {
         public string action;
         public double sum;
-        public double first, sec;
+        public string first, sec;
         public Form1()
         {
             InitializeComponent();
@@ -42,40 +42,30 @@ namespace calc
         {
             Button B = (Button)sender;
             action = B.Text;
-            switch (action)
+            first = textBox1.Text;
+            sec = textBox2.Text;
+            firstNum = Convert.ToDouble(first);
+            secondNum = Convert.ToDouble(sec);
+            double calc = Creatror(action);
+            double result = calc;
+            if (action == "Степень")
             {
-                case "+":
-                    
-                        first = Convert.ToDouble(textBox1.Text);
-                        sec = Convert.ToDouble(textBox2.Text);
-                        sum = first + sec;
-                        textBox3.Text = sum.ToString();
-                        break;
-                case "-":
-
-                    first = Convert.ToDouble(textBox1.Text);
-                    sec = Convert.ToDouble(textBox2.Text);
-                    sum = first - sec;
-                    textBox3.Text = sum.ToString();
-                    break;
-                case "*":
-
-                    first = Convert.ToDouble(textBox1.Text);
-                    sec = Convert.ToDouble(textBox2.Text);
-                    sum = first * sec;
-                    textBox3.Text = sum.ToString();
-                    break;
-                case "/":
-
-                    first = Convert.ToDouble(textBox1.Text);
-                    sec = Convert.ToDouble(textBox2.Text);
-                    sum = first / sec;
-                    textBox3.Text = sum.ToString();
-                    break;
-                default:
-                    throw new Exception("Unknown operation");
-
+                if (firstNum < 0)
+                {
+                    textBox3.Text = "Число должно быть > 0";
+                    return;
+                }
             }
+
+            if (action == "/")
+            {
+                if (secondNum == 0)
+                {
+                    textBox3.Text = "На ноль делить нельзя";
+                    return;
+                }
+            }
+            textBox3.Text = result.ToString();
         }
     }
 }
