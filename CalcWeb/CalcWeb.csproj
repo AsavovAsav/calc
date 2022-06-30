@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalcTests\CalcTests.csproj" />
+    <ProjectReference Include="..\calcTest\calcTest.csproj" />
+    <ProjectReference Include="..\calc\calc.csproj" />
+  </ItemGroup>
+
+</Project>
