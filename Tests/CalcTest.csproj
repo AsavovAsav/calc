@@ -15,4 +15,10 @@
     <ProjectReference Include="..\calc\calc.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="calc">
+      <HintPath>..\calc\bin\Debug\calc.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

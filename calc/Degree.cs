@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace calc
 {
-    class Degree : ITwoCalculator
+    public class Degree : ITwoCalculator
     {
         public double Calculate(double a, double b)
         {

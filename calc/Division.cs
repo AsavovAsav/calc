@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace calc
 {
-    class Division : ITwoCalculator
+    public class Division : ITwoCalculator
     {
         public double Calculate(double a, double b)
         {

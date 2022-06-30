@@ -14,10 +14,10 @@ namespace calc.test.Tests
             // actual result
             Degree degree = new Degree();
             double fullanswer = degree.Calculate(firstNum, secondNum);
-            ;
             Assert.AreEqual(answer, fullanswer);
         }
     }
+    
     public class Divisiontest
     {
         [TestCase(1, 1, 1)]

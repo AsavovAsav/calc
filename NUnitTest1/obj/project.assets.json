@@ -4628,19 +4628,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IVT-341_1\\.nuget\\packages\\": {}
+    "C:\\Users\\mrkha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IVT-341_1\\Desktop\\calc-main\\NUnitTest1\\NUnitTest1.csproj",
+      "projectUniqueName": "C:\\Users\\mrkha\\OneDrive\\Документы\\GitHub\\calc\\NUnitTest1\\NUnitTest1.csproj",
       "projectName": "NUnitTest1",
-      "projectPath": "C:\\Users\\IVT-341_1\\Desktop\\calc-main\\NUnitTest1\\NUnitTest1.csproj",
-      "packagesPath": "C:\\Users\\IVT-341_1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IVT-341_1\\Desktop\\calc-main\\NUnitTest1\\obj\\",
+      "projectPath": "C:\\Users\\mrkha\\OneDrive\\Документы\\GitHub\\calc\\NUnitTest1\\NUnitTest1.csproj",
+      "packagesPath": "C:\\Users\\mrkha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mrkha\\OneDrive\\Документы\\GitHub\\calc\\NUnitTest1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\IVT-341_1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mrkha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4652,6 +4652,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -4663,6 +4664,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -4692,7 +4694,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

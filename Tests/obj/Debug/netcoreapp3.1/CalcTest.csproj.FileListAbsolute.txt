@@ -92,3 +92,5 @@ C:\Users\mnago\OneDrive\Рабочий стол\Учёба\практика\calc
 C:\Users\mnago\OneDrive\Рабочий стол\Учёба\практика\calc_ivt-213\calc\CalcTest\obj\Debug\netcoreapp3.1\CalcTest.dll
 C:\Users\mnago\OneDrive\Рабочий стол\Учёба\практика\calc_ivt-213\calc\CalcTest\obj\Debug\netcoreapp3.1\CalcTest.pdb
 C:\Users\mnago\OneDrive\Рабочий стол\Учёба\практика\calc_ivt-213\calc\CalcTest\obj\Debug\netcoreapp3.1\CalcTest.genruntimeconfig.cache
+C:\Users\mrkha\OneDrive\Документы\GitHub\calc\Tests\obj\Debug\netcoreapp3.1\CalcTest.dll
+C:\Users\mrkha\OneDrive\Документы\GitHub\calc\Tests\obj\Debug\netcoreapp3.1\CalcTest.pdb

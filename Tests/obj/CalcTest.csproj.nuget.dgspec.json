@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mnago\\OneDrive\\Рабочий стол\\Учёба\\пратика git\\Praktik\\calc\\CalcTest\\CalcTest.csproj": {}
+    "C:\\Users\\mrkha\\OneDrive\\Документы\\GitHub\\calc\\Tests\\CalcTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mnago\\OneDrive\\Рабочий стол\\Учёба\\пратика git\\Praktik\\calc\\CalcTest\\CalcTest.csproj": {
+    "C:\\Users\\mrkha\\OneDrive\\Документы\\GitHub\\calc\\Tests\\CalcTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mnago\\OneDrive\\Рабочий стол\\Учёба\\пратика git\\Praktik\\calc\\CalcTest\\CalcTest.csproj",
+        "projectUniqueName": "C:\\Users\\mrkha\\OneDrive\\Документы\\GitHub\\calc\\Tests\\CalcTest.csproj",
         "projectName": "CalcTest",
-        "projectPath": "C:\\Users\\mnago\\OneDrive\\Рабочий стол\\Учёба\\пратика git\\Praktik\\calc\\CalcTest\\CalcTest.csproj",
-        "packagesPath": "C:\\Users\\mnago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mnago\\OneDrive\\Рабочий стол\\Учёба\\пратика git\\Praktik\\calc\\CalcTest\\obj\\",
+        "projectPath": "C:\\Users\\mrkha\\OneDrive\\Документы\\GitHub\\calc\\Tests\\CalcTest.csproj",
+        "packagesPath": "C:\\Users\\mrkha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mrkha\\OneDrive\\Документы\\GitHub\\calc\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mnago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mrkha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\mnago\\OneDrive\\Рабочий стол\\Учёба\\пратика git\\Praktik\\calc\\calc\\calc.csproj": {
-                "projectPath": "C:\\Users\\mnago\\OneDrive\\Рабочий стол\\Учёба\\пратика git\\Praktik\\calc\\calc\\calc.csproj"
+              "C:\\Users\\mrkha\\OneDrive\\Документы\\GitHub\\calc\\calc\\calc.csproj": {
+                "projectPath": "C:\\Users\\mrkha\\OneDrive\\Документы\\GitHub\\calc\\calc\\calc.csproj"
               }
             }
           }
@@ -68,18 +68,8 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
-      }
-    },
-    "C:\\Users\\mnago\\OneDrive\\Рабочий стол\\Учёба\\пратика git\\Praktik\\calc\\calc\\calc.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\mnago\\OneDrive\\Рабочий стол\\Учёба\\пратика git\\Praktik\\calc\\calc\\calc.csproj",
-        "projectName": "calc",
-        "projectPath": "C:\\Users\\mnago\\OneDrive\\Рабочий стол\\Учёба\\пратика git\\Praktik\\calc\\calc\\calc.csproj"
-      },
-      "frameworks": {
-        "net472": {}
       }
     }
   }
